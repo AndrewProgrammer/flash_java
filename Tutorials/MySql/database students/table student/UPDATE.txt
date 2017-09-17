@@ -1,0 +1,4 @@
+UPDATE students
+SET last_name = 'Pirson' , email = 'spirson@aol.com' , street = '2 Viva St' , city = 'Milch' , state = 'MI' , zip = 83661 , phone = '792-223-8441', birth_date = "1963-12-12",sex = 'F'
+WHERE student_id = 3;
+// id = 3 specifically for this one

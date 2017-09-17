@@ -1,0 +1,4 @@
+CREATE TABLE absences(
+student_id INT UNSIGNED NOT NULL,
+date DATE NOT NULL,
+PRIMARY KEY(student_id, date));

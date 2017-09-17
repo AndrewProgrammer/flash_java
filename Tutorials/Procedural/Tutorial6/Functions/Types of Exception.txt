@@ -1,0 +1,7 @@
+/Exceptions in Java:
+//1 ArithmeticException
+//2 ClassNotFoundException
+//3 IllegalArgumentException
+//4 IndexOutOfBoundsExceptions // Goind from Bounds of Array
+//5 InputMismatchException - // Not correct inputed type of value
+//6 IOException  - //create File that already exists

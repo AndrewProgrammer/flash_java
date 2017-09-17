@@ -1,0 +1,39 @@
+﻿//Метод
+html, body {
+		background-color: #667788;
+}
+.flex-container{
+	display: flex;
+	border:2px solid black;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-flow: column wrap;
+	//height: : 300px;
+	//justify-content: flex-end;
+	//justify-content: space-around;
+	//width: 300px;
+
+}
+.flex-item{
+	font-size: 36px;
+	padding: 5px 10px 5px 10px;
+	width: 200px;
+}
+.flex-item:first-child{
+	background-color: Chocolate;
+	flex-shrink: 2;
+}
+.flex-item:nth-child(2) {
+	background-color: CadetBlue;
+	order: 1;
+}
+.flex-item:nth-child(3) {
+	background-color: CornSilk;
+}
+.flex-item:nth-child(4) {
+	background-color: DarkTurquoise;
+	flex-grow: 4;
+}
+.flex-item:nth-child(5) {
+	background-color: GoldenRod;
+}

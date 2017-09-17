@@ -1,0 +1,7 @@
+1  Math.abs(Number) // Module
+2. Math.max(Number, Number) , Math.max(Number, Number) // Show max or min from 2 Numbers
+3. Math.sqrt(Number) // Root
+4. Math.ceil(Number) // around to higher number
+5. Math.floor(Number) // around to lower number
+7. Math.round(Number) // Simple round
+8. Math.random() * 11 // random number until 10 (inclusive)

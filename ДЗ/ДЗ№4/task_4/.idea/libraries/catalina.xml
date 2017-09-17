@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="catalina">
+    <CLASSES>
+      <root url="jar://H:/ /Программирование на Java/Hillel/apache-tomcat-8.5.20/lib/catalina.jar!/" />
+      <root url="jar://H:/ /Программирование на Java/Hillel/apache-tomcat-8.5.20/lib/catalina-tribes.jar!/" />
+      <root url="jar://H:/ /Программирование на Java/Hillel/apache-tomcat-8.5.20/lib/catalina-storeconfig.jar!/" />
+      <root url="jar://H:/ /Программирование на Java/Hillel/apache-tomcat-8.5.20/lib/catalina-ha.jar!/" />
+      <root url="jar://H:/ /Программирование на Java/Hillel/apache-tomcat-8.5.20/lib/catalina-ant.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

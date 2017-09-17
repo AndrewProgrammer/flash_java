@@ -1,0 +1,9 @@
+/* Relational Operators:
+         * Java has 6 relational operators
+         * > : Greater Than
+         * < : Less Than
+         * == : Equal To
+         * != : Not Equal To
+         * >= : Greater Than or Equal To
+         * <= : Less Than or Equal To
+         */

@@ -1,0 +1,5 @@
+// condition about catching (int), that you have put
+Can be another types, like:
+hasNextLine() // String
+hasNext() // boolean
+Others...

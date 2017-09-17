@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1503136045523" analysisTimestamp="1503136045547" release="">
+  <Project projectName="">
+    <Jar>D:\JAVA PROJECTS\task-1\build\classes\main\Classes\Blob\Blob.class</Jar>
+    <Jar>D:\JAVA PROJECTS\task-1\build\classes\main\Classes\Commit\Commit.class</Jar>
+    <Jar>D:\JAVA PROJECTS\task-1\build\classes\main\Classes\Dir\Dir.class</Jar>
+    <Jar>D:\JAVA PROJECTS\task-1\build\classes\main\Classes\OutFile\OurFile.class</Jar>
+    <Jar>D:\JAVA PROJECTS\task-1\build\classes\main\Classes\Parent\Parent.class</Jar>
+    <Jar>D:\JAVA PROJECTS\task-1\build\classes\main\Classes\Tree\Tree.class</Jar>
+    <Jar>D:\JAVA PROJECTS\task-1\build\classes\main\Classes\Type\Type.class</Jar>
+    <Jar>D:\JAVA PROJECTS\task-1\build\classes\main\HelpMenu\HelpMenu.class</Jar>
+    <Jar>D:\JAVA PROJECTS\task-1\build\classes\main\Interfaces\Element.class</Jar>
+    <Jar>D:\JAVA PROJECTS\task-1\build\classes\main\Interfaces\HashGenerate.class</Jar>
+    <Jar>D:\JAVA PROJECTS\task-1\build\classes\main\Main.class</Jar>
+    <Jar>D:\JAVA PROJECTS\task-1\build\classes\main\Proccessing\Proccessing.class</Jar>
+    <AuxClasspathEntry>C:\Users\lukig\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar</AuxClasspathEntry>
+    <SrcDir>D:\JAVA PROJECTS\task-1\src\main\java\Classes\Blob\Blob.java</SrcDir>
+    <SrcDir>D:\JAVA PROJECTS\task-1\src\main\java\Classes\Commit\Commit.java</SrcDir>
+    <SrcDir>D:\JAVA PROJECTS\task-1\src\main\java\Classes\Dir\Dir.java</SrcDir>
+    <SrcDir>D:\JAVA PROJECTS\task-1\src\main\java\Classes\Element\Element.java</SrcDir>
+    <SrcDir>D:\JAVA PROJECTS\task-1\src\main\java\Classes\HashGenerate\HashGenerate.java</SrcDir>
+    <SrcDir>D:\JAVA PROJECTS\task-1\src\main\java\Classes\OutFile\OurFile.java</SrcDir>
+    <SrcDir>D:\JAVA PROJECTS\task-1\src\main\java\Classes\Parent\Parent.java</SrcDir>
+    <SrcDir>D:\JAVA PROJECTS\task-1\src\main\java\Classes\Tree\Tree.java</SrcDir>
+    <SrcDir>D:\JAVA PROJECTS\task-1\src\main\java\Classes\Type\Type.java</SrcDir>
+    <SrcDir>D:\JAVA PROJECTS\task-1\src\main\java\HelpMenu\HelpMenu.java</SrcDir>
+    <SrcDir>D:\JAVA PROJECTS\task-1\src\main\java\Interfaces\Element.java</SrcDir>
+    <SrcDir>D:\JAVA PROJECTS\task-1\src\main\java\Interfaces\HashGenerate.java</SrcDir>
+    <SrcDir>D:\JAVA PROJECTS\task-1\src\main\java\Main.java</SrcDir>
+    <SrcDir>D:\JAVA PROJECTS\task-1\src\main\java\Proccessing\Proccessing.java</SrcDir>
+  </Project>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="Classes.OutFile.OurFile">
+      <SourceLine classname="Classes.OutFile.OurFile" start="15" end="108" sourcefile="OurFile.java" sourcepath="Classes/OutFile/OurFile.java"/>
+    </Class>
+    <Field classname="Classes.OutFile.OurFile" name="blob" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="Classes.OutFile.OurFile" sourcefile="OurFile.java" sourcepath="Classes/OutFile/OurFile.java"/>
+    </Field>
+    <SourceLine classname="Classes.OutFile.OurFile" start="44" end="44" startBytecode="29" endBytecode="29" sourcefile="OurFile.java" sourcepath="Classes/OutFile/OurFile.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="Classes.OutFile.OurFile">
+      <SourceLine classname="Classes.OutFile.OurFile" start="15" end="108" sourcefile="OurFile.java" sourcepath="Classes/OutFile/OurFile.java"/>
+    </Class>
+    <Field classname="Classes.OutFile.OurFile" name="parent" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="Classes.OutFile.OurFile" sourcefile="OurFile.java" sourcepath="Classes/OutFile/OurFile.java"/>
+    </Field>
+    <SourceLine classname="Classes.OutFile.OurFile" start="45" end="45" startBytecode="38" endBytecode="38" sourcefile="OurFile.java" sourcepath="Classes/OutFile/OurFile.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="Classes.OutFile.OurFile">
+      <SourceLine classname="Classes.OutFile.OurFile" start="15" end="108" sourcefile="OurFile.java" sourcepath="Classes/OutFile/OurFile.java"/>
+    </Class>
+    <Field classname="Classes.OutFile.OurFile" name="tree" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="Classes.OutFile.OurFile" sourcefile="OurFile.java" sourcepath="Classes/OutFile/OurFile.java"/>
+    </Field>
+    <SourceLine classname="Classes.OutFile.OurFile" start="46" end="46" startBytecode="47" endBytecode="47" sourcefile="OurFile.java" sourcepath="Classes/OutFile/OurFile.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="Classes.Parent.Parent">
+      <SourceLine classname="Classes.Parent.Parent" start="10" end="63" sourcefile="Parent.java" sourcepath="Classes/Parent/Parent.java"/>
+    </Class>
+    <Field classname="Classes.Parent.Parent" name="blob" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="Classes.Parent.Parent" sourcefile="Parent.java" sourcepath="Classes/Parent/Parent.java"/>
+    </Field>
+    <SourceLine classname="Classes.Parent.Parent" start="17" end="17" startBytecode="19" endBytecode="19" sourcefile="Parent.java" sourcepath="Classes/Parent/Parent.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="Classes.Tree.Tree">
+      <SourceLine classname="Classes.Tree.Tree" start="10" end="61" sourcefile="Tree.java" sourcepath="Classes/Tree/Tree.java"/>
+    </Class>
+    <Field classname="Classes.Tree.Tree" name="parent" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="Classes.Tree.Tree" sourcefile="Tree.java" sourcepath="Classes/Tree/Tree.java"/>
+    </Field>
+    <SourceLine classname="Classes.Tree.Tree" start="17" end="17" startBytecode="19" endBytecode="19" sourcefile="Tree.java" sourcepath="Classes/Tree/Tree.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="HelpMenu.HelpMenu">
+      <SourceLine classname="HelpMenu.HelpMenu" start="15" end="241" sourcefile="HelpMenu.java" sourcepath="HelpMenu/HelpMenu.java"/>
+    </Class>
+    <Field classname="HelpMenu.HelpMenu" name="scanner" signature="Ljava/util/Scanner;" isStatic="true">
+      <SourceLine classname="HelpMenu.HelpMenu" sourcefile="HelpMenu.java" sourcepath="HelpMenu/HelpMenu.java"/>
+    </Field>
+    <SourceLine classname="HelpMenu.HelpMenu" start="15" end="15" startBytecode="12" endBytecode="12" sourcefile="HelpMenu.java" sourcepath="HelpMenu/HelpMenu.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE">
+    <Class classname="Proccessing.Proccessing">
+      <SourceLine classname="Proccessing.Proccessing" start="8" end="13" sourcefile="Proccessing.java" sourcepath="Proccessing/Proccessing.java"/>
+    </Class>
+    <Method classname="Proccessing.Proccessing" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="Proccessing.Proccessing" start="11" end="13" startBytecode="0" endBytecode="6" sourcefile="Proccessing.java" sourcepath="Proccessing/Proccessing.java"/>
+    </Method>
+    <LocalVariable name="helpMenu" register="1" pc="12" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Proccessing.Proccessing" start="12" end="12" startBytecode="11" endBytecode="11" sourcefile="Proccessing.java" sourcepath="Proccessing/Proccessing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="helpMenu"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 19 Aug 2017 12:47:25 +0300" total_classes="12" referenced_classes="35" total_bugs="7" total_size="609" num_packages="11" java_version="1.8.0_144" vm_version="25.144-b01" cpu_seconds="6.19" clock_seconds="1.35" peak_mbytes="186.53" alloc_mbytes="7269.50" gc_seconds="0.02" priority_2="5" priority_1="2">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="3">
+      <ClassStats class="Main" sourceFile="Main.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="Classes.Blob" total_bugs="0" total_types="1" total_size="34">
+      <ClassStats class="Classes.Blob.Blob" sourceFile="Blob.java" interface="false" size="34" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="Classes.Commit" total_bugs="0" total_types="1" total_size="68">
+      <ClassStats class="Classes.Commit.Commit" sourceFile="Commit.java" interface="false" size="68" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="Classes.Dir" total_bugs="0" total_types="1" total_size="109">
+      <ClassStats class="Classes.Dir.Dir" sourceFile="Dir.java" interface="false" size="109" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="Classes.OutFile" total_bugs="3" total_types="1" total_size="62" priority_2="3">
+      <ClassStats class="Classes.OutFile.OurFile" sourceFile="OurFile.java" interface="false" size="62" bugs="3" priority_2="3"/>
+    </PackageStats>
+    <PackageStats package="Classes.Parent" total_bugs="1" total_types="1" total_size="36" priority_2="1">
+      <ClassStats class="Classes.Parent.Parent" sourceFile="Parent.java" interface="false" size="36" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="Classes.Tree" total_bugs="1" total_types="1" total_size="36" priority_2="1">
+      <ClassStats class="Classes.Tree.Tree" sourceFile="Tree.java" interface="false" size="36" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="Classes.Type" total_bugs="0" total_types="1" total_size="97">
+      <ClassStats class="Classes.Type.Type" sourceFile="Type.java" interface="false" size="97" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="HelpMenu" total_bugs="1" total_types="1" total_size="147" priority_1="1">
+      <ClassStats class="HelpMenu.HelpMenu" sourceFile="HelpMenu.java" interface="false" size="147" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="Interfaces" total_bugs="0" total_types="2" total_size="9">
+      <ClassStats class="Interfaces.Element" sourceFile="Element.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="Interfaces.HashGenerate" sourceFile="HashGenerate.java" interface="true" size="3" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="Proccessing" total_bugs="1" total_types="1" total_size="8" priority_1="1">
+      <ClassStats class="Proccessing.Proccessing" sourceFile="Proccessing.java" interface="false" size="8" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="157" invocations="473" avgMicrosecondsPerInvocation="332" maxMicrosecondsPerInvocation="12192" standardDeviationMircosecondsPerInvocation="883"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="61" invocations="35" avgMicrosecondsPerInvocation="1746" maxMicrosecondsPerInvocation="13058" standardDeviationMircosecondsPerInvocation="2974"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="48" invocations="259" avgMicrosecondsPerInvocation="186" maxMicrosecondsPerInvocation="3998" standardDeviationMircosecondsPerInvocation="390"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="47" invocations="138" avgMicrosecondsPerInvocation="345" maxMicrosecondsPerInvocation="11410" standardDeviationMircosecondsPerInvocation="1064"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="40" invocations="138" avgMicrosecondsPerInvocation="295" maxMicrosecondsPerInvocation="11194" standardDeviationMircosecondsPerInvocation="1038"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="38" invocations="35" avgMicrosecondsPerInvocation="1113" maxMicrosecondsPerInvocation="9150" standardDeviationMircosecondsPerInvocation="1868"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="38" invocations="145" avgMicrosecondsPerInvocation="268" maxMicrosecondsPerInvocation="6116" standardDeviationMircosecondsPerInvocation="614"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="36" invocations="476" avgMicrosecondsPerInvocation="77" maxMicrosecondsPerInvocation="3083" standardDeviationMircosecondsPerInvocation="253"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="36" invocations="146" avgMicrosecondsPerInvocation="250" maxMicrosecondsPerInvocation="27643" standardDeviationMircosecondsPerInvocation="2278"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="36" invocations="138" avgMicrosecondsPerInvocation="264" maxMicrosecondsPerInvocation="3205" standardDeviationMircosecondsPerInvocation="437"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="32" invocations="138" avgMicrosecondsPerInvocation="234" maxMicrosecondsPerInvocation="9539" standardDeviationMircosecondsPerInvocation="833"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="30" invocations="138" avgMicrosecondsPerInvocation="220" maxMicrosecondsPerInvocation="2518" standardDeviationMircosecondsPerInvocation="369"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="26" invocations="440" avgMicrosecondsPerInvocation="59" maxMicrosecondsPerInvocation="1306" standardDeviationMircosecondsPerInvocation="123"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="23" invocations="73" avgMicrosecondsPerInvocation="320" maxMicrosecondsPerInvocation="10679" standardDeviationMircosecondsPerInvocation="1264"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="17" invocations="35" avgMicrosecondsPerInvocation="497" maxMicrosecondsPerInvocation="4094" standardDeviationMircosecondsPerInvocation="821"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="16" invocations="77" avgMicrosecondsPerInvocation="211" maxMicrosecondsPerInvocation="1246" standardDeviationMircosecondsPerInvocation="276"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="14" invocations="35" avgMicrosecondsPerInvocation="418" maxMicrosecondsPerInvocation="3947" standardDeviationMircosecondsPerInvocation="812"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="13" invocations="35" avgMicrosecondsPerInvocation="391" maxMicrosecondsPerInvocation="6015" standardDeviationMircosecondsPerInvocation="1014"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="13" invocations="12" avgMicrosecondsPerInvocation="1120" maxMicrosecondsPerInvocation="4791" standardDeviationMircosecondsPerInvocation="1926"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="12" invocations="35" avgMicrosecondsPerInvocation="353" maxMicrosecondsPerInvocation="3239" standardDeviationMircosecondsPerInvocation="705"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="11" invocations="12" avgMicrosecondsPerInvocation="944" maxMicrosecondsPerInvocation="5548" standardDeviationMircosecondsPerInvocation="1554"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="11" invocations="35" avgMicrosecondsPerInvocation="316" maxMicrosecondsPerInvocation="2687" standardDeviationMircosecondsPerInvocation="537"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

@@ -1,0 +1,7 @@
+CREATE TABLE warehouse( 
+time_delivered TIMESTAMP,
+date_delivered DATE NOT NULL,
+quantity_of_books INT UNSIGNED NOT NULL,
+book_id int UNSIGNED NOT NULL,
+warehouse_id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY
+);

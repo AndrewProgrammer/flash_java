@@ -1,0 +1,11 @@
+CREATE TABLE orders( 
+date_of_order DATE NOT NULL,
+time_of_order TIMESTAMP,
+quantity_of_orders INT UNSIGNED NOT NULL,
+book_id int UNSIGNED NOT NULL,
+FOREIGN KEY (book_id) REFERENCES books(book_id),
+customer_id int UNSIGNED NOT NULL,
+FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
+order_id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY
+);
+

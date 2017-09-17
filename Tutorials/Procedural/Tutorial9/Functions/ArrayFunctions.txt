@@ -1,0 +1,38 @@
+//1 NameOfArray.length - show length of array, like const size in C++
+//2 Arrays.copzOf(Type Array, Number) // copy in another Array with same Type definete count of numbers by index
+The java.util.Arrays.copyOf(int[] original,int newLength) method copies the specified array, 
+truncating or padding with zeros (if necessary) so the copy has the specified length. 
+For all indices that are valid in both the original array and the copy, 
+the two arrays will contain identical values. 
+For any indices that are valid in the copy but not the original, 
+the copy will contain 0.
+Such indices will exist if and only if the specified length is greater than that of the original array.
+//3 Arrays.toString(Type Array) // convert array into String
+The java.util.Arrays.toString(int[]) 
+method returns a string representation of the contents of the specified int array. 
+The string representation consists of a list of the array's elements,
+ enclosed in square brackets ("[]"). 
+Adjacent elements are separated by the characters ", " (a comma followed by a space).
+//4 Arrays.sort // Sort Array from min to max
+
+
+HOW TO FILL UP ARRAY(TABLE) BY SYMBOL:
+/*char[][] boardGame = new char[10][10];
+for(char[] row : boardGame)
+{
+      Arrays.fill(row, '*');
+}*/
+
+
+// 5 Метод fill() заполняет все элементы массива от начального 
+до конечного индексов одним значением.
+
+Синтаксис: 
+arr.fill(value[, start = 0[, end = this.length]])
+
+// 6 Arrays.binarySearch // Makes search in SORTED Array by definite element
+
+The java.util.Arrays.binarySearch(int[] a, int key) 
+method searches the specified array of ints for the specified value using 
+the binary search algorithm.The array must be sorted before making this call.
+If it is not sorted, the results are undefined.

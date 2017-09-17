@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="Tomcat Webproject">
+    <output-path>$PROJECT_DIR$/out/artifacts/Tomcat_Webproject</output-path>
+    <root id="root" />
+  </artifact>
+</component>

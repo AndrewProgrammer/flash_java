@@ -1,0 +1,2 @@
+// THIS IS FOR BOOKSHOP!!!!! - LOOK AND SYNTAXIS
+ALTER TABLE customers CHANGE date_registred date_registered TIMESTAMP;

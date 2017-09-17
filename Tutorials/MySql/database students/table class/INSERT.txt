@@ -1,0 +1,6 @@
+INSERT INTO classes VALUES
+('English',NULL), ('Speech',NULL) , ('Literature', NULL),
+('Algebra',NULL), ('Geometry',NULL) , ('Trigonometry',NULL),
+('Calculus',NULL), ('Eearh Science',NULL) , ('Biology',NULL),
+('Chemistry',NULL), ('Physics',NULL) , ('History',NULL),
+('Art',NULL), ('Gym',NULL);

@@ -1,0 +1,4 @@
+//Number = of letter that is positioned in another String
+Description
+//This method returns the character located at the String's specified index. 
+//The string indexes start from zero.

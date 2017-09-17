@@ -1,0 +1,68 @@
+INSERT INTO students VALUE 
+('Dale', 'Cooper', 'dcooper@aol.com', 
+'123 Main St',
+'Yakima',
+'WA',
+98901,
+'792-223-8901',
+"1959-02-22",
+'M',
+NOW(),
+3.50,
+NULL);
+
+---2---
+INSERT INTO students VALUE
+('Harry', 'Truman', 'htruman@aol.com', 
+'202 South St',
+'Vancouver',
+'WA',
+98660,
+'792-223-9810',
+"1946-01-24",
+'M',
+NOW(),
+3.50,
+NULL);
+
+---3---
+INSERT INTO students VALUE
+('Shelly', 'Johnson', 'sjohnson@aol.com', 
+'0 Pond Rd',
+'Sparks',
+'NV',
+89431,
+'792-223-6734',
+"1970-12-12",
+'F',
+NOW(),
+3.50,
+NULL);
+
+---4---
+INSERT INTO students VALUE
+('Bobby', 'Briggs', 'bbriggs@aol.com', 
+'14 12th St',
+'San Diego',
+'CA',
+92101,
+'792-223-6178',
+"1967-05-24",
+'M',
+NOW(),
+3.50,
+NULL);
+
+---5---
+INSERT INTO students VALUE
+('Donna', 'Hayward', 'dhayaward@aol.com', 
+'120 16th St',
+'Davenport',
+'IA',
+52801,
+'792-223-2001',
+"1965-02-01",
+'F',
+NOW(),
+3.50,
+NULL);

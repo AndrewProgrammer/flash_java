@@ -1,0 +1,23 @@
+//operator like sizeof(C++) (but not exactly) instanceof:
+The java instanceof operator is used to test whether the object is an instance 
+of the specified type (class or subclass or interface).
+
+
+interface Domestic {}
+class Animal {}
+class Dog extends Animal implements Domestic {}
+class Cat extends Animal implements Domestic {}
+Imagine a dog object, created with Object dog = new Dog(), then:
+
+dog instanceof Domestic // true - Dog implements Domestic
+dog instanceof Animal   // true - Dog extends Animal
+dog instanceof Dog      // true - Dog is Dog
+dog instanceof Object   // true - Object is the parent type of all objects
+However, with Object animal = new Animal();,
+
+animal instanceof Dog // false
+because Animal is a supertype of Dog and possibly less "refined".
+
+And,
+
+dog instanceof Cat // does not even compile!
